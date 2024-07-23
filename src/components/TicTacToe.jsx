@@ -97,7 +97,7 @@ function TicTacToe() {
     if (gameState !== GameState.inProgress) {
       gameOverSound.play();
     }
-  }, [tiles]);
+  }, [gameState]);
 
   return (
     <div>
